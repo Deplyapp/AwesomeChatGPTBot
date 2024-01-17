@@ -28,6 +28,9 @@ from Providers.deepinfra import deep_infra_chat
 from Providers.fstha import fstha_chat_gpt
 from Providers.onlinegpt import online_gpt_chat
 from Providers.fakeopen import fakeopen_chat
+from keep_alive import keep_alive
+
+keep_alive()
 
 # Initialize the bot with 'TOKEN' defined in utils.py file.
 try:
